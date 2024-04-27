@@ -139,6 +139,9 @@ namespace GB_Csharp_ConsoleCalc
                     case "esc":
                         isRunning = Esc();
                         break;
+                    case "":
+                        isRunning = Esc();
+                        break;
                     default:
                         DefaultCase();
                         break;
